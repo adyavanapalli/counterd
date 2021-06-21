@@ -1,0 +1,3 @@
+.vscode
+bin/*
+!.do_not_delete
