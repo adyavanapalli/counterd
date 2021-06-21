@@ -91,7 +91,7 @@ void start_counting(int argc, char* argv[])
 
     syslog(LOG_INFO | LOG_LOCAL0, "Starting count");
 
-    for (size_t i = 1; i <= 100; i++)
+    for (size_t i = 1; i <= 10; i++)
     {
         syslog(LOG_INFO | LOG_LOCAL0, "count: %lu", i);
         sleep(1);
